@@ -9,6 +9,7 @@ import Header from '../components/HomeComponents/Header'
 import LoginModal from '../components/LoginModal'
 import { useAuth } from '../context/AuthContext';
 import { sanityClient } from '../sanity';
+import * as Realm from 'realm-web';
 import { Data } from '../typings';
 
 
