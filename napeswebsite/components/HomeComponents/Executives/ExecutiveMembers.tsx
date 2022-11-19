@@ -1,9 +1,5 @@
 import React from 'react'
 import ExecutivesCard from './ExecutivesCard';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import Link from 'next/link';
 import { Data } from '../../../typings';
 import { urlFor } from '../../../sanity';

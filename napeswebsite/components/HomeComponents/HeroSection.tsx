@@ -70,7 +70,7 @@ const HeroSection = () => {
         <p className='text-lg sm:text-xl my-5 lg:my-0'>Pay your dues to enjoy unlimited benefits from NAPES and avoid denial of semester registration</p>
         <div className='space-x-5 flex items-center '>
           <Link href="/paymentForm">
-            <a className='bg-red-600  text-white px-4 py-2 rounded hover:bg-green-800 shadow text-lg font-bold shadow-gray-800'>Pay Your Dues</a>
+            <p className='bg-red-600  text-white px-4 py-2 rounded hover:bg-green-800 shadow text-lg font-bold shadow-gray-800'>Pay Your Dues</p>
           </Link>
           <div>
             <p>{userData.name}</p>
@@ -80,7 +80,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className='hidden md:-mb-1.5 sm:block'>
-        <Image objectFit='contain' width={500} height={400} src={"/images/girly"}></Image>
+        <Image objectFit='contain' alt='image' width={500} height={400} src={"/images/girly.jpg"}></Image>
       </div>
     </section>
   )

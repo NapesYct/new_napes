@@ -23,7 +23,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className='hidden sm:block'>
-        <Image objectFit='contain' width={500} height={300} src={"/images/head.png"}></Image>
+        <Image objectFit='contain' width={500} height={300} alt="head" src={"/images/head.png"}></Image>
       </div>
     </section>
   )

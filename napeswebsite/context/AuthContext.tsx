@@ -52,7 +52,7 @@ export const AuthContextProvider = ({ children }: { children: React.ReactNode })
     const res = await fetch(process.env.NEXT_PUBLIC_API_ROUTE + '/');
     const data = await res.json();
 
-    const APP_ID = data.apiKey;
+    const APP_ID = "napes-website-wawfl";
     const app = new Realm.App({ id: APP_ID });
     const credentials = Realm.Credentials.anonymous();
 

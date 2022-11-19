@@ -32,7 +32,7 @@ const Header = ({ modalControl }) => {
     <header className='relative'>
       <div className='hidden sm:flex bg-white z-10 justify-around items-center'>
         <div className='hidden md:block'>
-          <Image className='' objectFit='contain' src={"/images/napes.png"} width="90" height="90"></Image>
+          <Image className='' objectFit='contain' alt='school logo' src={"/images/napes.png"} width="90" height="90"></Image>
         </div>
         <div className='hidden md:flex flex-col justify-center items-center'>
           <div className='flex flex-col items-end justify-center'>
@@ -59,7 +59,7 @@ const Header = ({ modalControl }) => {
           </nav>
         </div>
         <div className='hidden md:flex'>
-          <Image src={"/images/yabatechLogo.png"} objectFit='contain' width={100} height={80}></Image>
+          <Image src={"/images/yabatechLogo.png"} alt="image-head" objectFit='contain' width={100} height={80}></Image>
         </div>
       </div>
 
