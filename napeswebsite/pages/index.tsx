@@ -63,7 +63,7 @@ const Home = ({ data, posts, principalOfficers }: Props) => {
 
 export default Home
 
-export async function getStaticProps() {
+export async function getStaticProps(context: any) {
   // const { URL } = process.env;
 
   const res = await fetch(process.env.NEXT_PUBLIC_API_ROUTE + '/');
